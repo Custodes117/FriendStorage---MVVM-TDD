@@ -20,7 +20,6 @@ namespace FriendStorage.UI.ViewModel
             Func<IFriendEditViewModel> friendEditVmCreator,
             IEventAggregator eventAggregator)
         {
-            //new NavigationViewModel(new NavigationDataProvider (() => new FileDataService ()));
             NavigationViewModel = navigationViewModel;
             FriendEditViewModels = new ObservableCollection<IFriendEditViewModel>();
             _friendEditVmCreator = friendEditVmCreator;
